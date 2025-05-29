@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPAM-ULIANA</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="header-link" href="#info"> Информация</a>
+        <a class="header-link" href="#photo-gallery"> Фотогалерея </a>
+        <a class="header-link" href="#quiz">Викторина</a>
+      </nav>
+    </header>
+    <main>
+      <div class="main-section">
+        <div class="main-info">
+          <h1 class="main-title">Ульяна</h1>
+          <img class="main-img" src="./img/Uliana.jpg" />
+        </div>
+
+        <h2 id="info"> Информация </h2>
+        <section class="section1">
+          <img class="section-img" src="./img/Korolev.jpg" />
+          <div>
+            <h2>Обо мне</h2>
+            <p>
+              Привет! Меня зовут Ульяна. Я живу в России,в городе Королёв.
+              Я родилась в 2012 году,скоро мне будет 13. Мой день рождения
+              3 июня. Я учусь в Гимназии №5. Это одна из лучших гимназий 
+              в нашем городе. Мне нравится гулять с друзьями и играть в 
+              компьютерные игры. Моя любимая компьютерная игра это R.E.P.O.
+              и FIFA. Для игры в фифу я использую Nintendo Switch. 
+              А также мне нравится играть в футбол после занятий в школе.
+              Мои любимые предметы в школе это физкультура и немецкий язык.
+              У меня есть много родствеников. У меня есть родственики из
+              Беларуси. Мне нравится к ним приезжать,особенно летом. Мы
+              катаемся на квадрациклах и на багги. Там есть много котов,
+              кошек и котят. Мне нравится смотреть ролики на YouTube. Мои 
+              любимые ютуберы это TheBrainMaps и Anastasiz. У них очень 
+              интересный контент. Ну по крайней мере мне нравится.       
+            </p>
+          </div>
+        </section>
+
+        <section class="section2">
+          <img class="section-img" src="./img/Taekwondo.webp" />
+          <div>
+            <h2>Моё увлечение</h2>
+            <p>
+             Моё увлечение это тхэквондо. Это боевой вид искусства из Южной Кореи.
+             Скоро я буду сдавать на жёлто-зелёный пояс. По большей части в этом
+             виде спорта нужно работать ногами. Мне нравится тхэквондо из-за своей
+             зрелищности и чётких движений. У меня есть много друзей от туда. Мы 
+             помогаем друг другу и делимся опытом. По большей части я общаюсь
+             с старшими поясами. Почти у всех них есть красный пояс. Чтобы вы
+             поняли насколько они меня старше по поясу, я расскажу вам порядок
+             поясов. От меньшего к большему: белый, бело-жёлтый, жёлтый, жёлто-зелёный,
+             зелёный, зелёно-синий, синий, сине-красный, красный, коричневый, чёрный.
+             
+            </p>
+          </div>
+        </section>
+
+        <section class="section3">
+          <img class="section-img" src="./img/MyLifeAtSchool.jpg" />
+          <div>
+            <h2>Школа</h2>
+            <p>
+              Это отрывок из моей школьной жизни. Здесь я и мои друзья ставили
+              сценку по истории. Мы были тевтонцами. Моё прозвище было козинак,
+              потому что я была палачом. У нас была смешная сценка. Моя подруга
+              была конём и мы её казнили. Она была в маске коня и мы создали 
+              иллюзию как будто мы ей отрубили голову. Было очень смешно и весь
+              класс смеялся вместе с учительницей.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="gallery">
+        <h2 id="photo-gallery">Фотогалерея</h2>
+        <section class="gallery-section">
+        <input type="checkbox" class="gallery-input" id="photo1" />
+        <label for="photo1" class="gallery-info">
+          <span>Фото 1</span>
+          <div class="gallery-plus">+</div>
+        </label>
+        <label for="photo1" class="gallery-img">
+          <img src="./img/cat1.jpg" />
+        </label>
+        </section>
+
+        <section class="gallery-section">
+          <input type="checkbox" class="gallery-input" id="photo2" />
+          <label for="photo2" class="gallery-info">
+            <span>Фото 2</span>
+            <div class="gallery-plus">+</div>
+          </label>
+          <label for="photo2" class="gallery-img">
+            <img src="./img/cat2.jpg" />
+          </label>
+
+
+        <section class="gallery-section">
+          <input type="checkbox" class="gallery-input" id="photo3" />
+          <label for="photo3" class="gallery-info">
+            <span>Фото 3</span>
+            <div class="gallery-plus">+</div>
+          </label>
+            <label for="photo3" class="gallery-img">
+              <img src="./img/cat3.jpg" />
+          </label>
+          </section>
+      </div>
+
+      <!-- Викторина -->
+      <div class="quiz">
+        <h2 id="quiz" class="quiz-title">Викторина</h2>
+        <div class="quiz-container">
+            <div class="quiz-card-wrapper">
+          <article class="quiz-card">
+            <div class="quiz-side front">
+              <p><strong>Вопрос:</strong> В каком городе я живу?</p>
+            </div>
+            <div class="quiz-side back">
+              <p><strong>Ответ:</strong> <em>Королёв</em></p>
+            </div>
+          </article>
+            </div>
+
+         <div class="quiz-card-wrapper">
+          <article class="quiz-card">
+            <div class="quiz-side front">
+              <p><strong>Вопрос:</strong> Какие мои любимые игры?</p>
+            </div>
+            <div class="quiz-side back">
+              <p><strong>Ответ:</strong> <em>R.E.P.O. и FIFA</em></p>
+            </div>
+          </article>
+            </div>
+                 <div class="quiz-card-wrapper">
+          <article class="quiz-card">
+            <div class="quiz-side front">
+              <p><strong>Вопрос:</strong>Каким боевым искусством я занимаюсь?</p>
+            </div>
+            <div class="quiz-side back">
+              <p><strong>Ответ:</strong> <em>Тхэквондо</em></p>
+            </div>
+          </article>
+            </div>
+             </div>
+        </div>
+      </div>
+
+    
+       
+        </div>
+      </div>
+      </div>
+      
+           
+
+
+    </main>
+  </body>
+</html>
